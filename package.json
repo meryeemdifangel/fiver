@@ -1,5 +1,5 @@
 {
-  "homepage": "https://meryeemdifangel.github.io/fiver",
+  "homepage": "https://github.com/meryeemdifangel/fiver#readme",
   "name": "fiver",
   "version": "0.1.0",
   "private": true,
@@ -53,6 +53,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meryeemdifangel/fiver/issues"
-  },
-  "homepage": "https://github.com/meryeemdifangel/fiver#readme"
+  }
 }
