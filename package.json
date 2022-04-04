@@ -1,5 +1,5 @@
 {
-  "homepage": "http://meryeemdifangel.github.io/aa",
+  "homepage": "http://meryeemdifangel.github.io/fiver",
   "name": "fiver",
   "version": "0.1.0",
   "private": true,
@@ -47,7 +47,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meryeemdifangel/app.git"
+    "url": "git+https://github.com/meryeemdifangel/fiver.git"
   },
   "author": "",
   "license": "ISC",
