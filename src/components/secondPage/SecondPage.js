@@ -43,15 +43,15 @@ function SecondPage() {
           <div className='secondPageContainerHeroLeftBottom'>
             <div className='one'>
 <EventAvailableIcon style={{ fontSize: 40 }} />
-<div>Book a consultation</div>
+<div className='icone'>Book a consultation</div>
             </div>
             <div className='two'>
 <SupervisedUserCircleIcon style={{ fontSize: 40 }}/>
-<div>SUPPORT</div>
+<div className='icone'>SUPPORT</div>
 </div>
 <div className='three'>
-<GTranslateIcon style={{ fontSize: 40 }} />
-<div>GOOGLE SUPPORT</div>
+<GTranslateIcon  style={{ fontSize: 40 }} />
+<div className='icone'>GOOGLE SUPPORT</div>
 </div>     
           </div>
         </div>

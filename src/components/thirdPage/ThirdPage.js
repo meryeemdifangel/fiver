@@ -21,20 +21,20 @@ function ThirdPage() {
 <div className='low'>
 <div className='lowH'>
     <div className='un'>
-<div  style={{fontWeight:"600"  }} >UNITED STATES</div>
-<div style={{width:"90%" , fontWeight:"500" , textAlign:"center" }} >2055 Limestone Road #200 C Wilmington, Delaware 19808 United States</div>
+<div  className='pays'  >UNITED STATES</div>
+<div className='paysDecrire'>2055 Limestone Road #200 C Wilmington, Delaware 19808 United States</div>
     </div>
 
     <div className='un'>
-    <div  style={{fontWeight:"600"  }} >INDIA</div>
-<div style={{width:"90%" , fontWeight:"500" , textAlign:"center" }} >Avanta Busienss Center
+    <div className='pays'   >INDIA</div>
+<div className='paysDecrire' >Avanta Busienss Center
 Saket City, New Delhi 110017
 India
 </div>
     </div>
     <div className='un'>
-    <div  style={{fontWeight:"600"  }} >PHILIPPINES</div>
-<div style={{width:"90%" , fontWeight:"500" , textAlign:"center" }} >Level 10-1 One Global Place
+    <div  className='pays' >PHILIPPINES</div>
+<div className='paysDecrire'  >Level 10-1 One Global Place
 25th St, 5th Ave, Taguig 1634
 Philippines
 </div>
@@ -66,10 +66,10 @@ Subscribe to our newsletter
         <div className='thirdPageContainerBottom'>
 <div className='sectionOne'>
 <div className='sectionOne1'>
-    <FacebookIcon style={{color:'#fff' }} />
-    <InstagramIcon style={{color:'#fff' }} />
-    <LinkedInIcon style={{color:'#fff' }} />
-    <TwitterIcon style={{color:'#fff' }}  />
+    <FacebookIcon style={{color:'#fff',fontSize:'10' }} />
+    <InstagramIcon style={{color:'#fff' ,fontSize:'10'}} />
+    <LinkedInIcon style={{color:'#fff' ,fontSize:'10'}} />
+    <TwitterIcon style={{color:'#fff' ,fontSize:'10'}}  />
     </div>
 <div className='sectionOneLeft'>
 <div className='sectionOneLefT' >
@@ -113,6 +113,12 @@ Career Opportunities
 <div className='sectionBetween'></div>
 <div className='sectionTwo'>
     <div className='bas'>
+    <div className='base'>
+    <FacebookIcon style={{color:'#fff',fontSize:'10' }} />
+    <InstagramIcon style={{color:'#fff' ,fontSize:'10'}} />
+    <LinkedInIcon style={{color:'#fff' ,fontSize:'10'}} />
+    <TwitterIcon style={{color:'#fff' ,fontSize:'10'}}  />
+    </div>
     © 2022 LaQuest
     </div>
 
