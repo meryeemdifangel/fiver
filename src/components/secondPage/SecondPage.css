@@ -42,11 +42,26 @@ justify-content: space-between;
     font-weight: 400;
     font-size: 1.7rem;
 }
+.topTitle:hover{
+    width: 50%;
+    cursor: pointer;
+  color: rgb(100, 176, 201);
+  border-bottom: 2px solid rgb(100, 176, 201);
+
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+ margin-left: 20px;
+}
 .topText{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.7rem;
 
+}
+.topText:hover{
+    cursor: pointer;
+    color: rgb(56, 84, 94);
 }
 .secondPageContainerHeroLeftMiddle{
     height: 70%;
@@ -59,6 +74,14 @@ justify-content: space-between;
     text-decoration: underline;
     font-weight: 600;
     font-size: 1.3rem;
+
+}
+.emailStyle:hover{
+    width: 50%;
+    margin-left: 20px;
+    text-decoration: none;
+color: rgb(134, 191, 210);
+border-bottom: 2px dotted rgb(134, 191, 210);
 
 }
 .secondPageContainerHeroLeftBottom{
@@ -79,6 +102,9 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
 }
+.one:hover{
+   padding: 10px;
+}
 .two{
     background-color: #c8eafa;
     height: 100%;
@@ -89,6 +115,9 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
 }
+.two:hover{
+    padding: 10px;
+ }
 .three{
     height: 100%;
     width: 30%;
@@ -98,6 +127,9 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
 }
+.three:hover{
+    padding: 10px;
+ }
 .icon{
     height: 100%;
 color: blue;
@@ -203,4 +235,67 @@ select{
 span{
     color:#33adff;   
 }
+
+@media only screen and (max-width: 900px) {
+    .secondPageContainer{
+        height: 120vh;
+        width: 100%;
+        background: linear-gradient(0.25turn, #daeef7, #fbfcf0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondPageContainerHero{
+
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .secondPageContainerHeroLeft{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+           align-items: flex-start; 
+           height: 46%;
+
+        }
+        .secondPageContainerHeroRight{
+            margin-left: 30px;
+            width: 80%;
+            background: linear-gradient(0.25turn, #c8e7f5, #eaebdd);
+            height: 50%;
+
+        }
+        .meryem{
+    
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+        .above{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            flex-direction: column;
+            height: 50%;
+            justify-content: space-evenly;
+        }
+
+        .imgContainer{
+            height: 60%;
+            width: 80%;
+            position: relative;
+        }
+        .imgContainer:hover{
+            border-top: 2px solid lightblue ;
+            border-right: 2px solid lightblue ;
+        
+            transform: translate(10px, 10px);
+        
+        }
+  }
+  
 

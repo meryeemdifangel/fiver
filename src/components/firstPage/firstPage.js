@@ -1,8 +1,11 @@
 import './firstPage.css';
 import girl from "../../assets/girl.jpg"
+import Cursor from '../cursor/Cursor';
 function FirstPage() {
+  
   return (
     <div className='firstPageContainer'>
+    
         <div className='firstPageContainerHero'>
 <div className='textContainer' >
 <div className='firstPageTitle'>TASKS SIMPLIFIED</div>

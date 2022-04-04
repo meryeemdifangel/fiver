@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .firstPageContainerHero{
 
 height: 60%;
@@ -14,15 +15,28 @@ display: flex;
 justify-content: space-between;
 }
 .imgContainer{
+    margin: 10px;
     height: 100%;
     width: 45%;
     position: relative;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.imgContainer:hover{
+    border-top: 2px solid lightblue ;
+    border-right: 2px solid lightblue ;
+
+    transform: translate(10px, 10px);
+
 }
 .styleImage{
     height: 100%;
     width: 100%;
-    
+    border-radius: 2%;
 }
+
 .textContainer{
     width: 45%;
     margin-left: 20px;
@@ -32,11 +46,27 @@ text-transform: uppercase;
 font-size: 1.8rem;
 font-weight: 400;
 }
+.firstPageTitle:hover{
+  cursor: pointer;
+  color: rgb(100, 176, 201);
+  border-bottom: 2px solid rgb(100, 176, 201);
+
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+ margin-left: 20px;
+
+
+    }
 .firstPageText{
     text-transform: uppercase;
     font-size: 1.8rem;
 font-weight: 700;
     }
+    .firstPageText:hover{
+        cursor: pointer;
+  color: rgb(56, 84, 94);
+        }
     .rectangleStyle{
         height: 100px;
         width: 280px;
@@ -56,5 +86,49 @@ transform: rotate(-90deg);
 
 
     }
+    .rectangleStyle:hover{
+     background-color: rgba(34, 147, 132, 0.2);
+
+
+
+    }
     .vertical{
     }
+
+    @media only screen and (max-width: 700px) {
+        .firstPageContainer{
+            height: 120vh;
+            width: 100%;
+            background: linear-gradient(0.25turn, #daeef7, #fbfcf0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .firstPageContainerHero{
+
+            height: 80%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            
+            }
+            .textContainer{
+                width: 80%;
+                margin-left: 20px;
+            }
+            .imgContainer{
+                height: 60%;
+                width: 80%;
+                position: relative;
+            }
+            .imgContainer:hover{
+                border-top: 2px solid lightblue ;
+                border-right: 2px solid lightblue ;
+            
+                transform: translate(10px, 10px);
+            
+            }
+      }
+      

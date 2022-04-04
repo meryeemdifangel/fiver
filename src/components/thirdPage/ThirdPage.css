@@ -60,6 +60,10 @@ height: 70%;
     align-items: center;
     
 }
+.un:hover{
+padding: 10px;
+    
+}
 
 .lowL{
 
@@ -96,6 +100,14 @@ background: linear-gradient(0.25turn , #f1f1e9, #b7d4e2);
         
         
         }
+        .lowL11:hover{
+        
+            color: rgb(100, 176, 201);
+
+           
+            
+            
+            }
     .lowL2{
         height: 100%;
    
@@ -199,6 +211,10 @@ justify-content: space-between;
     font-size: 0.9rem;
     color: #fff;
 }
+.bas:hover{
+    color: rgb(100, 176, 201);
+
+}
 .contact{
 
 height: 10%;
@@ -208,6 +224,21 @@ margin-top: 5%;
 margin-right: 10%;
 font-weight: 600
 }
+.contact:hover{
+
+    color: rgb(100, 176, 201);
+
+    }
+    .country{
+        color: #fff ;
+         font-weight: 600; 
+         width:33%;
+    }
+    .country:hover{
+
+        color: rgb(100, 176, 201);
+    
+        }
 .centre{
     
     height: 40%;

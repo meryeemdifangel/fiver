@@ -73,13 +73,13 @@ Subscribe to our newsletter
     </div>
 <div className='sectionOneLeft'>
 <div className='sectionOneLefT' >
-<div style={{color: "#fff" , fontWeight: "600"  , width:"33%" }} >
+<div className='country'  >
 UNITED STATES.
 </div>
-<div style={{color: "#fff" , fontWeight: "600" , width:"33%"}}>
+<div className='country'  >
 India.
 </div>
-<div style={{color: "#fff" , fontWeight: "600", width:"33%"}}>
+<div className='country' >
 PHILIPPINES.
 </div>
 </div>
@@ -105,7 +105,7 @@ LaQuest
 <div style={{color: "#fff" , fontWeight: "600" }}>
 Career Opportunities
 </div>
-<div style={{color: "#fff" , fontWeight: "400"}}>career@laquest.net
+<div  style={{color: "#fff" , fontWeight: "400"}}>career@laquest.net
 </div>
     </div>
 </div>
